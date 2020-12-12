@@ -15,32 +15,5 @@
       <description>搭建步骤 安装brew 安装git 安装hugo 命令行 brew install hugo  新建文件夹 在想建立站点的位置新建一个文件夹（不要出现中文路径） 如 blog  打开终端 1.cd blog 打开文件夹 2.hugo new site myblog 新建名为myblog的站点 3.通过theme.github.io 下载主题并配置 下载 cd myblog git clone https://主题路径 配置 主题文件夹下有exampleSite文件夹 打开文件夹，找到theme.toml 配置好后更改文件名为config.toml （注意备份） 复制上面的文件到根目录myblog ps. 主题文件夹下的static为放置图片的文件夹，头像等图片资源一般都放在这个文件夹 4.hugo new post/blog.md 在content/post 文件夹中新建一个后缀名为md的博客文件 5.编辑博客文件 6.hugo server -D 在本地运行测试  GitHub 操作 新建个人仓库，名称为用户名+github.io 如dushiyu1.github.io  终端操作 1.hugo --theme=m10c --baseUrl=&amp;quot;https://dushiyu1.github.io&amp;quot; -buildDrafts 此时会在myblog文件夹内生产public文件夹 2.cd public 打开public文件夹 3.git init 初始化git仓库 4.git add . 添加文件 5.</description>
     </item>
     
-    <item>
-      <title>我的第三篇博客</title>
-      <link>https://dushiyu1.github.io/post/blog3/</link>
-      <pubDate>Sat, 12 Dec 2020 21:18:40 +0800</pubDate>
-      
-      <guid>https://dushiyu1.github.io/post/blog3/</guid>
-      <description>我的第三篇博客  </description>
-    </item>
-    
-    <item>
-      <title>我的第二篇博客</title>
-      <link>https://dushiyu1.github.io/post/blog2/</link>
-      <pubDate>Sat, 12 Dec 2020 20:46:59 +0800</pubDate>
-      
-      <guid>https://dushiyu1.github.io/post/blog2/</guid>
-      <description>这是我的第二篇博客，测试上传到远程。  </description>
-    </item>
-    
-    <item>
-      <title>我的第一篇博客</title>
-      <link>https://dushiyu1.github.io/post/blog1/</link>
-      <pubDate>Sat, 12 Dec 2020 20:30:13 +0800</pubDate>
-      
-      <guid>https://dushiyu1.github.io/post/blog1/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
